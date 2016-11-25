@@ -1,0 +1,23 @@
+from package.json
+  // "scripts": {
+  //   "prestart": "babel-node buildScripts/startMessage.js",
+  //   "start": "npm-run-all --parallel security-check test:watch start-mockapi open:src lint:watch",
+  //   "open:src": "babel-node buildScripts/srcServer.js",
+  //   "lint": "esw webpack.config.* src buildScripts --color",
+  //   "lint:watch": "npm run lint -- --watch",
+  //   "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
+  //   "test:watch": "npm run test -- --watch",
+  //   "clean-dist": "npm run remove-dist && mkdir dist",
+  //   "remove-dist": "rimraf ./dist",
+  //   "build:html": "babel-node buildScripts/buildHtml.js",
+  //   "prebuild": "npm-run-all clean-dist test lint build:html",
+  //   "build": "babel-node buildScripts/build.js",
+  //   "postbuild": "babel-node buildScripts/distServer.js",
+  //   "security-check": "nsp check",
+  //   "localtunnel": "lt --port 3000",
+  //   "share": "npm-run-all --parallel open:src localtunnel",
+  //   "deploy": "surge ./dist --domain fuelcalc.surge.sh",
+  //   "prestart-mockapi": "npm run generate-mock-data",
+  //   "start-mockapi": "json-server --watch src/api/db.json --port 3001",
+  //   "generate-mock-data": "babel-node buildScripts/generateMockData"
+  // },
